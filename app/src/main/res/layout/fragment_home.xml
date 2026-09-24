@@ -9,6 +9,23 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/tab_text_1" />
+        android:text="@string/tab_text_1"
+        style="@style/CustomTextView18Bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_oop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materi OOP"
+        style="@style/CustomRoundedButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Materi Android"
+        style="@style/CustomRoundedButton" />
 
 </FrameLayout>
